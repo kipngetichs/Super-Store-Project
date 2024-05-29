@@ -99,10 +99,68 @@ Some of the data visuals that may be appropriate in answering our questions incl
 5. Area Chart
 6. Ribbon Chart
 7. Tree Map
+![SUMMARY_1716982040869429](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/5197ef06-0465-48d7-9bf8-30ed803be45f)
+![OVERVIEW_1716982041714386](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/f7bf5336-c88f-4a76-9a55-8a781c3eba20)
 
+# Tools
+| Tool | Purpose |        
+|------------|------------|
+| Excel | Exploring the data | 
+| SQL Server  | Cleaning, testing, and analyzing the data    | 
+| Power BI  | Visualizing the data via interactive dashboards  | 
+| GitHub  | 	Hosting the project documentation and version control  | 
+| Mokkup AI   | 	Designing the wireframe/mockup of the dashboard  | 
 
+# Development
+# Pseudocode
+- The general approach in creating this solution from start to finish was:
+ 1. Get the data
+ 2. Explore the data in Excel
+ 3. Load the data into SQL Server
+ 4. Clean the data with SQL
+ 5. Test the data with SQL
+ 6. Visualize the data in Power BI
+ 7. Generate the findings based on the insights
+ 8. Write the documentation + commentary
+ 9. Publish the data to GitHub Pages
+# Data exploration notes
+- The Following was my initial observation that caught my Attention:
+  1. Analysis of Sales Performance: Revenue and profit data can be analyzed to determine the financial performance of various products, categories, and segments.
+  2. Customer Segmentation:Segment, state, and county data can be used to segment customers and tailor marketing strategies.
+  3. Geographical Insights:Market and region data provide insights into sales distribution and performance across different geographical areas.
+  4. Product Performance:Category, sub-category, and product name details help in analyzing the popularity and profitability of specific products.
+  5. Shipping and Delivery:Ship mode data allows for the analysis of shipping preferences and their impact on sales and customer satisfaction.
+      
+# Data cleaning
+ - Expectations to the data.
+ 
+  The aim is to refine our dataset to ensure it is structured and ready for analysis.
 
+The cleaned data should meet the following criteria and constraints:
+1. No duplicates in records,this will indicate correct analysis for each record in the dataset.
+2. Only relevant columns should be retained.
+3. All data types should be appropriate for the contents of each column.
+4. No column should contain null values, indicating complete data for all records.
+5. Columns like(Revenue,Quantity and Profit)should not contain 0 values for it will not make any sense at all.
 
+And here is a tabular representation of the expected schema for the clean data:
+| Column Name| Data Type|   Nullable     |
+|------------|------------|--------|
+| Order_Id| VARCHAR|     NO  |
+|Date|DATE|NO     
+|Ship_Mode| VARCHAR|NO
+|Customer_Name|VARCHAR|NO
+|Segment|VARCHAR|NO
+|State|VARCHAR|NO
+|County|VARCHAR|NO
+|Market|VARCHAR|NO    
+|Region|VARCHAR|NO    
+|Category| VARCHAR|NO 
+|Sub_Category|VARCHAR|NO
+|Product_Name|VARCHAR|NO
+|Revenue|INTEGER|NO
+|Quantity|INTEGER|NO
+|Profit|FLOAT|NO
 
 
 
