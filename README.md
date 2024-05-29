@@ -1,5 +1,7 @@
 # SUPERSTORE SALES MARKETTING PROJECT PORFOLIO
-![pexels-karolina-grabowska-5650037 (1)](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/5d83f903-d94d-481d-88c2-af68ad4f6af8)
+
+![pexels-karolina-grabowska-5650037](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/04eebed8-4273-4fc8-8484-50f2ebf4a94f)
+
 
 ## Table of Contents
   - Objective 
