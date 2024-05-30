@@ -162,6 +162,7 @@ And here is a tabular representation of the expected schema for the clean data:
 |Quantity|INTEGER|NO
 |Profit|FLOAT|NO
 # Transform the data
+![Transform super img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/3e2d8838-9040-4695-bea4-c81cfe5f2b3c)
 
 
 
