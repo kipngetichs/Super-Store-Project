@@ -221,3 +221,21 @@ SQL Query
   
     GROUP BY product_name
 OUTPUT    
+
+![Null records img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/fdaf5b08-c1a9-46de-a881-b632ab1a6a33)
+
+ - There was no null record encountered in the data the rest of columns were clean.
+# Zero Values Count Check In Revenue,Quantity And Profit Columns.
+SQL Query
+
+    SELECT Revenue,
+
+    COUNT(*)Zero_Values_Count
+
+    FROM SuperStore_Sales_Marketing
+
+    WHERE Revenue =0
+
+    GROUP BY Revenue
+OUTPUT  
+  THere were no zero values in Revenue ,Quantity and Profit Columns indicating valid data.
