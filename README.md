@@ -238,4 +238,16 @@ SQL Query
 
     GROUP BY Revenue
 OUTPUT  
+
+![Zero Values Check img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/4622ba1e-0b0d-4094-8f14-95f3d9e11c8f)
+
   THere were no zero values in Revenue ,Quantity and Profit Columns indicating valid data.
+# Testing
+Here are the data quality tests conducted:
+# Row count check
+SQL Query
+
+    SELECT COUNT(*)Row_Count_Check
+
+    FROM SuperStore_Sales_Marketing
+ OUTPUT     
