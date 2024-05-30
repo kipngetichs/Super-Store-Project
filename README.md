@@ -161,6 +161,7 @@ And here is a tabular representation of the expected schema for the clean data:
 |Revenue|INTEGER|NO
 |Quantity|INTEGER|NO
 |Profit|FLOAT|NO
+# Transform the data
 
 
 
