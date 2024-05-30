@@ -185,6 +185,7 @@ OUTPUT
 
 ![removing duplicates img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/17705eff-da4b-47a5-af4f-75eba95d9131)
 
+- There were several duplicates encountered in the records
 # Removal Of Duplicates Using CTEs
 SQL Query
 
@@ -208,6 +209,7 @@ OUTPUT
 
 ![ctes removal of duplicates](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/02093cb1-d98c-45ff-9cd3-9637a74132b1)
 
+- All Duplicates were managed to be removed so that we can remain with single unique order ids for analysis.
 # Removal Of Null Values
 SQL Query
   
@@ -254,6 +256,7 @@ SQL Query
 
  ![Row count Check img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/4ba3ef29-c32a-404d-a533-17d366882900)
 
+- All rows are correct.
 # Column count check
 SQL Query
 
@@ -264,7 +267,10 @@ SQL Query
     WHERE TABLE_NAME='SuperStore_Sales_Marketing'
  OUTPUT 
 
- ![Column Count Check](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/1a350be4-5d73-4ce0-8a9d-f3b50106362f)
+ 
+![Column Count Check](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/1a350be4-5d73-4ce0-8a9d-f3b50106362f)
+
+- All columns are correct.
 # Data type check
 SQL Query
 
@@ -279,6 +285,8 @@ SQL Query
 
  ![data type check](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/f135ca32-784e-45e1-8c0d-6e12eee9f417)
 
+- All data types are correct.
+
 # Duplicates Count Check
 SQL Query
 
@@ -292,4 +300,10 @@ SQL Query
 
     HAVING COUNT(*)>1
  OUTPUT 
-    
+
+ ![Duplicates count](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/0af2f7f2-0bfe-481e-a0b6-e50311563d4b)
+
+- No Duplicates Encountered Meaning All Records passed the test.
+# Visualization
+- Results
+  This is the look of dashboard.
