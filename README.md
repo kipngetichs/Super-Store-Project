@@ -276,3 +276,20 @@ SQL Query
  
     WHERE TABLE_NAME='SuperStore_Sales_Marketing'
  OUTPUT 
+
+ ![data type check](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/f135ca32-784e-45e1-8c0d-6e12eee9f417)
+
+# Duplicates Count Check
+SQL Query
+
+    SELECT Order_Id,
+
+    COUNT(*)Duplicates_Count
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY Order_Id
+
+    HAVING COUNT(*)>1
+ OUTPUT 
+    
