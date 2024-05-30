@@ -179,6 +179,8 @@ SQL Query
  ROW_NUMBER() over(PARTITION BY  order_id ORDER BY order_id )ROW_RANK
  
  FROM SuperStore_Sales_Marketing
+OUTPUT
+
 
 
 
