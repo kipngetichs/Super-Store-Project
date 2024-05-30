@@ -162,10 +162,23 @@ And here is a tabular representation of the expected schema for the clean data:
 |Quantity|INTEGER|NO
 |Profit|FLOAT|NO
 # Transform the data
+OUTPUT
+
+![Data Transformation](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/77e9b71c-e4fd-41e2-8c53-8b719541b006)
+
+# Create the SQL view
+OUTPUT
+
 ![Transform super img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/3e2d8838-9040-4695-bea4-c81cfe5f2b3c)
 
-
-
+# Removing Duplicates Order Ids
+# Duplicates 
+SQL Query
+ SELECT order_id,
+ 
+ ROW_NUMBER() over(PARTITION BY  order_id ORDER BY order_id )ROW_RANK
+ 
+ FROM SuperStore_Sales_Marketing
 
 
 
