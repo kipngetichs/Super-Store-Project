@@ -206,4 +206,18 @@ SQL Query
                                    
 OUTPUT
 
-    
+![ctes removal of duplicates](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/02093cb1-d98c-45ff-9cd3-9637a74132b1)
+
+# Removal Of Null Values
+SQL Query
+  
+    SELECT product_name,
+   
+    COUNT(*)Null_Records
+  
+    FROM SuperStore_Sales_Marketing
+ 
+    WHERE product_name IS NULL
+  
+    GROUP BY product_name
+OUTPUT    
