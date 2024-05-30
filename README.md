@@ -263,3 +263,16 @@ SQL Query
  
     WHERE TABLE_NAME='SuperStore_Sales_Marketing'
  OUTPUT 
+
+ ![Column Count Check](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/1a350be4-5d73-4ce0-8a9d-f3b50106362f)
+# Data type check
+SQL Query
+
+    SELECT COLUMN_NAME,
+
+    DATA_TYPE
+
+    FROM INFORMATION_SCHEMA.COLUMNS
+ 
+    WHERE TABLE_NAME='SuperStore_Sales_Marketing'
+ OUTPUT 
