@@ -250,4 +250,16 @@ SQL Query
     SELECT COUNT(*)Row_Count_Check
 
     FROM SuperStore_Sales_Marketing
- OUTPUT     
+ OUTPUT 
+
+ ![Row count Check img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/4ba3ef29-c32a-404d-a533-17d366882900)
+
+# Column count check
+SQL Query
+
+    SELECT COUNT(*)Column_Count_Check
+
+    FROM INFORMATION_SCHEMA.COLUMNS
+ 
+    WHERE TABLE_NAME='SuperStore_Sales_Marketing'
+ OUTPUT 
