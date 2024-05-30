@@ -306,4 +306,96 @@ SQL Query
 - No Duplicates Encountered Meaning All Records passed the test.
 # Visualization
 - Results
+
   This is the look of dashboard.
+
+  ![Power bi dashboard sumary img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/a98e1e89-79cd-4403-ba41-b13af3584380)
+![overview pages power bi dashboard img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/faf56ed5-37b0-4212-9f2f-5cc514b50671)
+# DAX Measures
+# 1. Total Orders
+    Total Orders = 
+    
+    VAR oderids=COUNT(superstore_sales_data[Order_Id])
+    
+    RETURN oderids
+  # 2. Total Revenue
+    Total Revenue = 
+    
+    VAR sumofrevenue=SUM(superstore_sales_data[Revenue])
+   
+    RETURN sumofrevenue
+  # 3. Total Quantity
+    Total Quantity = 
+    
+    VAR sumofquantity=SUM(superstore_sales_data[Quantity])
+    
+    RETURN sumofquantity
+  # 4. Total Profits
+    Total Profits = 
+    
+    VAR sumofprofit=SUM(superstore_sales_data[Profit])
+    
+    RETURN sumofprofit
+  # Analysis
+  # Findings
+  For this analysis,the following are what we need to find out
+  1. Top 10 States With highest Revenue contributions.
+  2. Top 10 Customers With highest Revenue Contributions.
+  3. Total Quantities Per @ Category.
+  4. Total Quantities Per @ Ship Mode.
+  5. Monthly Trend For Profits.
+  6. Top 10 Sub categories With Highest profits Contributions.
+  7. Top 5 Regoinns With Highest profits Contributions.
+  8. Total Profits Per @ Market Contributions.
+  9. Table Grid Showing SuperStore Sales growth.
+  10. Bottom 5 states,customers,categories and sub categories.
+
+# Top 10 States With highest Revenue contributions.
+|Rank|State|Total Revenue(K)
+|---------|--------|---------|
+|1|England|$110481
+|2|California|$96606
+|3|New York| $75842
+|4|New South Wales| $65297
+|5|Queensland|$62936
+|6|Ile-de-France|$58119
+|7|Victoria|$44847
+|8|National Capital|$41745
+|9|San Salvador|$40694
+|10|North Rhine-Westphalia|$38298
+# Top 10 Customers With highest Revenue Contributions.
+|Rank|Customer Name|Total Revenue(K)
+|---------|--------|---------|
+|1|Adrian Barton|$14451
+|2|Hunter Lopez|$13172
+|3|Charles McCrossin| $12759
+|4|Joseph Holt| $12597
+|5|Mike Gockenbach|$11809
+|6|Aaron Hawkins|$11615
+|7|Natalie Fritzler|$11424
+|8|Carl Ludwig|$11023
+|9|Denny Joyr|$10306
+|10|Alejandro Savely|$10034
+
+# Total Quantities Per @ Category
+|Rank|Category|Total Quantity
+|---------|--------|---------|
+|1|Office Supplies|$25275
+|2|Furniture|$8602
+|3|Technology| $8155
+# Total Quantities Per @ Ship Mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
