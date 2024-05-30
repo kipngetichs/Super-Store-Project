@@ -171,17 +171,39 @@ OUTPUT
 
 ![Transform super img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/3e2d8838-9040-4695-bea4-c81cfe5f2b3c)
 
-# Removing Duplicates Order Ids
+# Removing Duplicates  in Order Ids
 # Duplicates 
 SQL Query
- SELECT order_id,
+  
+    SELECT order_id,
  
- ROW_NUMBER() over(PARTITION BY  order_id ORDER BY order_id )ROW_RANK
+    ROW_NUMBER() over(PARTITION BY  order_id ORDER BY order_id )ROW_RANK
  
- FROM SuperStore_Sales_Marketing
+    FROM SuperStore_Sales_Marketing
+
 OUTPUT
 
+![removing duplicates img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/17705eff-da4b-47a5-af4f-75eba95d9131)
 
+# Removal Of Duplicates Using CTEs
+SQL Query
 
+    WITH REMOVAL AS
+ 
+    (SELECT order_id,
+ 
+     ROW_NUMBER() over(PARTITION BY  order_id ORDER BY order_id )ROW_RANK
+ 
+    FROM SuperStore_Sales_Marketing)
+
+     DELETE FROM SuperStore_Sales_Marketing
+ 
+     WHERE order_id IN(SELECT order_id
+                   
+             FROM REMOVAL
+                  
+             WHERE   ROW_RANK>1 )
+                                   
+OUTPUT
 
     
