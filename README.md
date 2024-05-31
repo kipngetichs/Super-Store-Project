@@ -562,11 +562,43 @@ Top Customer=High Income Growth Contribution
 
     ORDER BY  Profits DESC
 # OUTPUT
-  
 
+![Top Customers img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/b266b154-ca63-4fb5-8a21-d17b65af7f49)
 
+# Top Categories With Highest Income Contributions  
+Calculation Breakdown
+Top Category=High income Growth
+1. Technology
+   - Total Orders=2355K
+   - Total Revenue=$1122829K
+   - Total Quantity=8198K
+   - Total Profits=$173850.47K
+2. Office Supplies
+   - Total Orders=7448K
+   - Total Revenue=$855694K
+   - Total Quantity=25519K
+   - Total Profits=$117166.28K
+3. Furniture
+   - Total Orders=2454K
+   - Total Revenue=$1014213K
+   - Total Quantity=8697K
+   - Total Profits=$59557.03K
+# SQL query for this :
+    SELECT Category,
 
+    COUNT(Order_Id)Total_Orders,
 
+    SUM(Revenue)Total_revenue,
 
+    SUM(Quantity)Total_Quantity,
+
+    CAST(SUM(Profit) AS DECIMAL(10,2))Profits
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY  Category
+
+    ORDER BY  Profits DESC
+# OUTPUT
 
 
