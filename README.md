@@ -647,6 +647,9 @@ Top Ship Mode=High Income Growth
 
 # OUTPUT
 
+![Top Ship Modes img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/0404b3aa-b4fe-49c2-bb39-19de0c23cb9c)
+
+
 
 
 
