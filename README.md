@@ -476,8 +476,48 @@ State Growth=High Income Growth
    - Total Revenue=$110481K
    - Total Quantity=1163K
    - Total Profits=$23949.96K
+2. New York
+   -  Total Orders=292K
+   -  Total Revenue=$75842K
+   -  Total Quantity=1135K
+   -  Total Profits=$16252.99K
+3. California
+   - Total Orders=520K
+   - Total Revenue=$96606K
+   - Total Quantity=1958K
+   - Total Profits=$15061.26K
+ 4. New South Wales
+     - Total Orders=188K
+     - Total Revenue=$65297K
+     - Total Quantity=679K
+     - Total Profits=$12873.15K
+ 5. San Salvador
+    - Total Orders=158K
+    -  Total Revenue=$40694K
+    -  Total Quantity=589K
+    -  Total Profits=$9630.61K
+# SQL query for this :
+    SELECT TOP 5  State,
 
+    COUNT(Order_Id)Total_Orders,
 
+    SUM(Revenue)Total_revenue,
+
+    SUM(Quantity)Total_Quantity,
+
+    CAST(SUM(Profit) AS DECIMAL(10,2))Profits
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY  State
+
+    ORDER BY  Profits DESC
+# OUTPUT
+# Top Customers With Highest Income Contributions
+  
+  
+  
+  
 
 
 
