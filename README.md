@@ -470,7 +470,7 @@ SQL Query
 # Top States With Highest Income Contributions
 Calculation Breakdown
 
-State Growth=High Income Growth
+Top State=High Income Growth Contribution
 1. England
    - Total Orders=312K
    - Total Revenue=$110481K
@@ -513,10 +513,55 @@ State Growth=High Income Growth
 
     ORDER BY  Profits DESC
 # OUTPUT
+![Top states income growth](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/07b3a63a-2e7d-4cb4-a3f0-6516b3b06702)
+
 # Top Customers With Highest Income Contributions
+Calculation Breakdown
+
+Top Customer=High Income Growth Contribution
+1. Adrian Barton
+   - Total Orders=21K
+   - Total Revenue=$14451K
+   - Total Quantity=79K
+   - Total Profits=$5545.30K
+2. Hunter Lopez
+   - Total Orders=12K
+   - Total Revenue=$13172K
+   - Total Quantity=50K
+   - Total Profits= $5321.82K 
+3. Mike Gockenbach
+   - Total Orders=15K
+   - Total Revenue=$11809K
+   - Total Quantity=52K
+   - Total Profits=$3807.12K 
+4. Cynthia Arntzen
+   - Total Orders=12K
+   - Total Revenue=$8148K
+   - Total Quantity=52K
+   - Total Profits=$2928.02K
+ 5. Denny Joy
+    - Total Orders=16K
+    - Total Revenue=$10306K
+    - Total Quantity=65K
+    - Total Profits=$2593.34K
   
-  
-  
+# SQL query for this :
+    SELECT TOP  5 Customer_Name,
+
+    COUNT(Order_Id)Total_Orders,
+
+    SUM(Revenue)Total_revenue,
+
+    SUM(Quantity)Total_Quantity,
+
+    CAST(SUM(Profit) AS DECIMAL(10,2))Profits
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY  Customer_Name
+
+    ORDER BY  Profits DESC
+# OUTPUT
   
 
 
