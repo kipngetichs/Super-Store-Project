@@ -345,12 +345,12 @@ SQL Query
   4. Total Quantities Per @ Ship Mode.
   5. Monthly Trend For Profits.
   6. Top 10 Sub categories With Highest profits Contributions.
-  7. Top 5 Regoinns With Highest profits Contributions.
+  7. Top 5 Region With Highest profits Contributions.
   8. Total Profits Per @ Market Contributions.
   9. Table Grid Showing SuperStore Sales growth.
-  10. Bottom 5 states,customers,categories and sub categories.
+  10. Bottom 5 states,customers,sub categories with lowest profits.
 
-# Top 10 States With highest Revenue contributions.
+# 1. Top 10 States With highest Revenue contributions.
 |Rank|State|Total Revenue(K)
 |---------|--------|---------|
 |1|England|$110481
@@ -363,7 +363,7 @@ SQL Query
 |8|National Capital|$41745
 |9|San Salvador|$40694
 |10|North Rhine-Westphalia|$38298
-# Top 10 Customers With highest Revenue Contributions.
+# 2. Top 10 Customers With highest Revenue Contributions.
 |Rank|Customer Name|Total Revenue(K)
 |---------|--------|---------|
 |1|Adrian Barton|$14451
@@ -377,19 +377,97 @@ SQL Query
 |9|Denny Joyr|$10306
 |10|Alejandro Savely|$10034
 
-# Total Quantities Per @ Category
+# 3. Total Quantities Per @ Category
 |Rank|Category|Total Quantity
 |---------|--------|---------|
-|1|Office Supplies|$25275
-|2|Furniture|$8602
-|3|Technology| $8155
-# Total Quantities Per @ Ship Mode.
-
-
-
-
-
-
+|1|Office Supplies|25519
+|2|Furniture|8697
+|3|Technology| 8198
+# 4. Total Quantities Per @ Ship Mode.
+|Rank|Ship Mode|Total Quantity
+|---------|--------|---------|
+|1|Standard Class|25493
+|2|Second Class|8204
+|3|First Class| 6507
+|4|Same Day| 2210
+# 5. Monthly Trend For Profits.
+|Rank|Month Name|Total Profit(K)
+|---------|--------|---------|
+|1|January|$13010.3
+|2|February |$14957.78
+|3|March| $21711.78
+|4|April| $14902.4
+|5|May|$22354.96
+|6|June|$33914.27
+|7|July|$21692.78
+|8|August|$28865.34
+|9|September|$37622.28
+|10|October|$38232.26
+|11|November|$56021.81
+|12|December|$47287.82
+# 6. Top 10 Sub categories With Highest profits Contributions.
+|Rank|Sub Category|Total Profit(K)
+|---------|--------|---------|
+|1|Copiers|$63648.11
+|2|Phones |$63127.32
+|3|Bookcases| $38148.80
+|4|Chairs| $34111.34
+|5|Accessories|$31521.43
+|6|Appliances|$29381.39
+|7|Storage|$27522.24
+|8|Machines|$15553.62
+|9|Binders|$14845.57
+|10|Paper|$14218.62
+# 7. Top 5 Region With Highest profits Contributions.
+|Rank|Region|Total Profit(K)
+|---------|--------|---------|
+|1|Central|$75773.51
+|2|North |$51540.79
+|3|North Asia| $34587.48
+|4|Central Asia| $29105.77
+|5|Oceania|$29048.79
+# 8. Total Profits Per @ Market Contributions.
+|Rank|Market|Total Profit(K)
+|---------|--------|---------|
+|1|APAC|$105036.18
+|2|EU |$70071.61
+|3|LATAM| $66530.35
+|4|US| $63423.96
+|5|Africa|$27319.92
+|6|EMEA|$14991.01
+|7|Canada|$3200.76
+# Bottom 5 States With Highest Loss Contributions
+|Rank|States|Total Loss(K)
+|---------|--------|---------|
+|1|Lagos|$-6746.50
+|2|Illinois |$-6582.30
+|3|Istanbul| $-6432.10
+|4|Stockholm| $-3766.61
+|5|Lisboa|$-3671.30
+# Bottom 5 customers With Highest Loss Contributions
+|Rank|customers|Total Loss(K)
+|---------|--------|---------|
+|1|Henry Goldwyn|$-3435.69
+|2|Saphhira Shifley |$-1841.31
+|3|Nancy Lomonaco| $-1581.19
+|4|Benjamin Farhat| $-1578.86
+|5|Stefania Perrino|$-1532.25
+# Bottom 5 Sub category With lowest profits Contributions
+|Rank|Sub category |Total Loss(K)
+|---------|--------|---------|
+|1|Tables|$-20637.02
+|2|Fasteners |$3127.39
+|3|Labels| $3548.13
+|4|Supplies| $4917.93
+|5|Envelopes|$6284.33
+# Notes
+- For this analysis, we'll prioritize analysing with metrics that are important in generating the expected ROI for the project, which are the states,market,customers,categories,sub categories and ship mode with the highest and lowest contributions in the following:
+- Total Orders
+- Total Revenue
+- Total Quantity
+- Total Profits
+# Validation
+# Top States With Highest Income Contributions
 
 
 
