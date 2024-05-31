@@ -468,6 +468,14 @@ SQL Query
 - Total Profits
 # Validation
 # Top States With Highest Income Contributions
+Calculation Breakdown
+
+State Growth=High Income Growth
+1. England
+   - Total Orders=312K
+   - Total Revenue=$110481K
+   - Total Quantity=1163K
+   - Total Profits=$23949.96K
 
 
 
