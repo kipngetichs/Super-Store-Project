@@ -601,4 +601,53 @@ Top Category=High income Growth
     ORDER BY  Profits DESC
 # OUTPUT
 
+![Top categories img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/83276a9d-aad7-4352-829d-56ca13407c93)
+
+# Top Ship Modes With Highest Income Contributions
+Calculation Breakdown
+
+Top Ship Mode=High Income Growth
+
+1. Standard Class
+   - Total Orders=7344K
+   - Total Revenue=$1808006K
+   - Total Quantity=25493K
+   - Total Profits=$211670.34K
+2. Second Class
+   - Total Orders=2414K
+   - Total Revenue=$588314K
+   - Total Quantity=8204K
+   - Total Profits=$66756.83K
+3. First Class
+   - Total Orders=1857K
+   - Total Revenue=$448869K
+   - Total Quantity=6507K
+   - Total Profits=$52970.62K
+4. Same Day
+   - Total Orders=642K
+   - Total Revenue=$147547K
+   - Total Quantity=2210K
+   - Total Profits=$19175.99K
+# SQL query for this :
+    SELECT Ship_Mode,
+
+    COUNT(Order_Id)Total_Orders,
+
+    SUM(Revenue)Total_revenue,
+
+    SUM(Quantity)Total_Quantity,
+
+    CAST(SUM(Profit) AS DECIMAL(10,2))Profits
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY  Ship_Mode
+
+    ORDER BY  Profits DESC
+
+# OUTPUT
+
+
+
+
 
