@@ -736,7 +736,7 @@ Top Month=High Income Growth Contributions
 # OUTPUT
 ![Monthly trends img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/21120526-9b09-4e13-aa79-6d8d98e8cb67)
 
-# Top 10 Sub categories With Highest profits Contributions.
+# Top 10 Sub categories With Highest Income Contributions.
 Calaculation Breakdown
 
 Top Sub Category=High Income Growth Contributions
@@ -815,7 +815,7 @@ Top Sub Category=High Income Growth Contributions
 
 ![Top sub categories img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/892596d6-a057-4ba3-8d57-4f2e4499b76e)
 
-# Top 5 Region With Highest profits Contributions.
+# Top 5 Region With Highest Income Contributions.
 Calculation Breakdown
 
 Top Region=High income Growth Contributions
@@ -860,7 +860,101 @@ Top Region=High income Growth Contributions
     GROUP BY Region
 
     ORDER BY Total_Profit DESC
-OUTPUT
+# OUTPUT
+
+![Top Region growth img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/b6e40179-4790-42a5-9bd0-c83451f4099b)
+
+# Income  Growth Contributions Per @ Market
+Calculation Breakdown=
+
+Top Market=High Income Growth
+
+1. APAC
+   - Total Orders=2654K
+   - Total Revenue=$881169K
+   - Total Profits=$105036.18K
+   - Total Quantity=9831K
+2. EU
+   - Total Orders=2106K
+   - Total Revenue=$624205K
+   - Total Profits=$70071.61K
+   - Total Quantity=7851K
+3. LATAM
+   - Total Orders=2549K
+   - Total Revenue=$560540K
+   - Total Profits=$66530.35K
+   - Total Quantity=9718K
+ 4. US
+    - Total Orders=2523K
+    - Total Revenue=$527467K
+    - Total Profits=$63423.96K
+    - Total Quantity=9622K 
+5. Africa
+   - Total Orders=1096K
+   - Total Revenue=$191557K
+   - Total Profits=$27319.92k
+   - Total Quantity=2413K
+6. EMEA
+   - Total Orders=1219K
+   - Total Revenue=$194695K
+   - Total Profits=$14991.01K
+   - Total Quantity=2758K
+7. Canada
+   - Total Orders=110K
+   - Total Revenue=$13103k
+   - Total Profits=$3200.76K
+   - Total Quantity=221K
+
+# SQL query for this :
+    SELECT Market,
+
+    COUNT(order_id)Total_Orders,
+
+    SUM(Revenue)Total_Revenue,
+
+    CAST(SUM(profit) AS DECIMAL(10,2)) Total_Profit,
+
+    SUM(quantity)Total_Quantity
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY Market
+
+    ORDER BY Total_Profit DESC
+
+# OUTPUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
