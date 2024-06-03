@@ -924,15 +924,57 @@ Top Market=High Income Growth
 
 # OUTPUT
 
+![Market growth img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/87dc5b4c-66e5-4e34-b5b2-561efcd8922c)
 
 
+# Top States With Lowest Income Growth  Contributions
+Calculation Breakdown
 
+Low State=Low Income Growth
+1. Lagos
+   - Total Orders=66K
+   - Total Revenue=$4363K
+   - Total Profits=$-6746.50K
+   - Total Quantity=145K
+2. Illinois
+   - Total Orders=153K
+   - Total Revenue=$28701K
+   - Total Profits=$-6582.30K
+   - Total Quantity=635K
+3. Istanbul
+   - Total Orders=89K
+   - Total Revenue=$7522K
+   - Total Profits=$-6432.10K
+   - Total Quantity=213K
+4. Stockholm
+   - Total Orders=40K
+   - Total Revenue=$5936K
+   - Total Profits=$-3766.61K
+   - Total Quanity=151K
+5. Lisboa
+   - Total Orders=13K
+   - Total Revenue=$4747K
+   - Total Profits=$-3671.30K
+   - Total Quantity=52K
 
+# SQL query for this :
+    SELECT TOP 5 State,
 
+    COUNT(order_id)Total_Orders,
 
+    SUM(Revenue)Total_Revenue,
 
+    CAST(SUM(profit) AS DECIMAL(10,2)) Total_Profit,
 
+    SUM(quantity)Total_Quantity
 
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY State
+
+    ORDER BY Total_Profit ASC
+
+# OUTPUT
 
 
 
