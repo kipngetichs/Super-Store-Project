@@ -976,6 +976,15 @@ Low State=Low Income Growth
 
 # OUTPUT
 
+![Lowest States growth img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/42eae5df-2a1a-4e8d-9d15-f842da3eb48d)
+
+# Top Customers With Lowest Income Growth Contributions
+Calculation Breakdown
+
+Low Customer=Lowest Income Growth
+
+1. Henry Goldwyn
+   - Total Orders=
 
 
 
