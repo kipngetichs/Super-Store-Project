@@ -813,12 +813,54 @@ Top Sub Category=High Income Growth Contributions
 
 # OUTPUT
 
+![Top sub categories img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/892596d6-a057-4ba3-8d57-4f2e4499b76e)
 
+# Top 5 Region With Highest profits Contributions.
+Calculation Breakdown
 
+Top Region=High income Growth Contributions
+1. Central
+   - Total Orders=2471K
+   - Total Revenue=$633321K
+   - Total Profits=$75773.51K
+   - Total Quantity=9364k
+2. North
+   - Total Orders=1159K
+   - Total Revenue=$319473K
+   - Total Profits=$51540.79K
+   - Total Quantity=4334K
+3. North Asia
+   - Total Orders=575K
+   - Total Revenue=$200278K
+   - Total Profits=$34587.48K
+   - Total Quantity=2086K
+4. Central Asia
+   - Total Orders=512K
+   - Total Revenue=$186116k
+   - Total Profits=$29105.77K
+   - Total Quantity=1919k
+5. Oceania
+   - Total Orders=850K
+   - Total Revenue=$276134K
+   - Total Profits=$29048.79k
+   - Total Quantity=3081K
+# SQL query for this :
+    SELECT TOP 5 Region,
 
+    COUNT(order_id)Total_Orders,
 
+    SUM(Revenue)Total_Revenue,
 
+    CAST(SUM(profit) AS DECIMAL(10,2)) Total_Profit,
 
+    SUM(quantity)Total_Quantity
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY Region
+
+    ORDER BY Total_Profit DESC
+OUTPUT
 
 
 
