@@ -648,6 +648,112 @@ Top Ship Mode=High Income Growth
 # OUTPUT
 
 ![Top Ship Modes img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/0404b3aa-b4fe-49c2-bb39-19de0c23cb9c)
+# Monthly Trend For Profits.
+Calculation Breakdown
+
+Top Month=Highest Profit Contributions
+
+1. January
+   - Total Orders=600K
+   - Total Revenue=$156174K
+   - Total Profits=$13010.30K
+   - Total Quantity=2125K
+2. February
+   - Total Orders=530K
+   - Total Revenue=$125181K
+   - Total Profits=$14957.78K
+   - Total Quantity=1874K
+3. March
+   - Total Orders=783K
+   - Total Revenue=$170391K
+   - Total Profits=$21711.78K
+   - Total Quantity=2708K
+4. April
+   - Total Orders=691K
+   - Total Revenue=$154528K
+   - Total Profits=$14902.40K
+   - Total Quantity=2379K
+5. May
+   - Total Orders=903K
+   - Total Revenue=$230108K
+   - Total Profits=$22354.96K
+   - Total Quantity=3131K
+6. June
+   - Total Orders=1231K
+   - Total Revenue=$294844K
+   - Total Profits=$33914.27K
+   - Total Quantity=4124K
+7. July
+   - Total Orders=716K
+   - Total Revenue=$177457K
+   - Total Profits=$21692.78K
+   - Total Quantity=2399k
+8. August
+   - Total Orders=1159K
+   - Total Revenue=$292370K
+   - Total Profits=$28865.34K
+   - Total Quantity=3906K
+9. September
+    - Total Orders=1437K
+    - Total Revenue=$323451K
+    - Total Profits=$37622.28K
+    - Total Quantity=4809K
+ 10. October
+     - Total Orders=1130K
+     - Total Revenue=$301305K
+     - Total Profits=$38232.26K
+     - Total Quantity=4088K 
+11. November
+    - Total Orders=1528K
+    - Total Revenue=$357754K
+    - Total Profits=$56021.81K
+    - Total Quantity=5400K
+12. December
+    - Total Orders=1549K
+    - Total Revenue=$409173K
+    - Total Profits=$47287.82K
+    - Total Quantity=5471K
+# SQL query for this :
+    SELECT MONTH(Date)Month_Numbers,
+
+    DATENAME(MONTH,Date)Month_Name,
+
+    COUNT(order_id)Total_Orders,
+
+    SUM(Revenue)Total_Revenue,
+
+    CAST(SUM(profit) AS DECIMAL(10,2)) Total_Profit,
+
+    SUM(quantity)Total_Quantity
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY MONTH(Date),DATENAME(MONTH,Date)
+
+    ORDER BY MONTH(Date) ASC
+
+
+# OUTPUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
