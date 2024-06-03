@@ -651,7 +651,7 @@ Top Ship Mode=High Income Growth
 # Monthly Trend For Profits.
 Calculation Breakdown
 
-Top Month=Highest Profit Contributions
+Top Month=High Income Growth Contributions
 
 1. January
    - Total Orders=600K
@@ -734,22 +734,84 @@ Top Month=Highest Profit Contributions
 
 
 # OUTPUT
+![Monthly trends img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/21120526-9b09-4e13-aa79-6d8d98e8cb67)
 
+# Top 10 Sub categories With Highest profits Contributions.
+Calaculation Breakdown
 
+Top Sub Category=High Income Growth Contributions
+1. Copiers
+   - Total Orders=523K
+   - Total Revenue=$357511K
+   - Total Profits=$63648.11K
+   - Total Quantity=1744K
+2. Phones
+   - Total Orders=804K
+   - Total Revenue=$421026K
+   - Total Profits=$63127.32K
+   - Total Quantity=2841K
+3. Bookcases
+   - Total Orders=556K
+   - Total Revenue=$326560K
+   - Total Profits=$38148.80K
+   - Total Quantity=1850K
+4. Chairs
+   - Total Orders=879K
+   - Total Revenue=$388185K
+   - Total Profits=$34111.34K
+   - Total Quantity=3202K
 
+5. Accessories
+   - Total Orders=693K
+   - Total Revenue=$165781K
+   - Total profits=$31521.43K
+   - Total Quantity=2465K
 
+6. Appliances
+   - Total Orders=399K
+   - Total Revenue=$218753K
+   - Total Profits=$29381.39K
+   - Total Quantity=1412K
+7. Storage
+   - Total Orders=1235K
+   - Total Revenue=$259789K
+   - Total Profits=$27522.24K
+   - Total Quantity=4017K
+8. Machines
+   - Total Orders=335k
+   - Total Revenue=$178511K
+   - Total Profits=$15553.62K
+   - Total Quantity=1148K
 
+9. Binders
+    - Total Orders=1418K
+    - Total Revenue=$107006K
+    - Total Profits=$14845.57K
+    - Total Quantity=4824K
+10. Paper
+    - Total Orders=855K
+    - Total Revenue=$59671K
+    - Total Profits=$14218.62K
+    - Total Quantity=3128K
 
+# SQL query for this :
+    SELECT TOP 10 Sub_Category,
 
+    COUNT(order_id)Total_Orders,
 
+    SUM(Revenue)Total_Revenue,
 
+    CAST(SUM(profit) AS DECIMAL(10,2)) Total_Profit,
 
+    SUM(quantity)Total_Quantity
 
+    FROM SuperStore_Sales_Marketing
 
+    GROUP BY Sub_Category
 
+    ORDER BY Total_Profit DESC
 
-
-
+# OUTPUT
 
 
 
