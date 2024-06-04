@@ -1028,13 +1028,57 @@ Low Customer=Lowest Income Growth
 
 # OUTPUT
 
+![Lowest Customers Growth IMG](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/c2c8552b-9b62-4d68-bb5b-517dc7940d27)
 
+# Top Sub Categories With Lowest Income Growth
+Calaculation Breakdown
 
+Low Sub category=Lowest Income Growth
 
+1. Tables
+   - Total Orders=244K
+   - Total Revenue=$208139K
+   - Total Profits=$-20637.02K
+   - Total Quantity=828K
+2. Fasteners
+   - Total Orders=586K
+   - Total Revenue=$20655K
+   - Total Profits=$3127.39K
+   - Total Quantity=2048K
+3. Labels
+   - Total Orders=645K
+   - Total Revenue=$17858K
+   - Total Profits=$3548.13K
+   - Total Quantity=2335K
+4. Supplies
+   - Total Orders=546K
+   - Total Revenue=$50549K
+   - Total Profits=$4917.93K
+   - Total Quantity=1934K
+5. Envelopes
+   - Total Orders=563K
+   - Total Revenue=$37505K
+   - Total Profits=$6284.33k
+   - Total Quantity=1926K
 
+# SQL query for this :
+    SELECT TOP 5 Sub_Category,
 
+    COUNT(Order_Id)Total_Orders,
 
+    SUM(Revenue)Total_Revenue,
 
+    CAST(SUM(Profit) AS DECIMAL(10,2) )Total_Profit,
+
+    SUM(Quantity)Total_Quantity
+
+    FROM SuperStore_Sales_Marketing
+
+    GROUP BY Sub_Category
+
+    ORDER BY Total_Profit ASC
+
+# OUTPUT
 
 
 
