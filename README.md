@@ -1080,8 +1080,53 @@ Low Sub category=Lowest Income Growth
 
 # OUTPUT
 
+![Lowest sub categories img](https://github.com/kipngetichs/Super-Store-Project/assets/169267198/f9038afc-c50c-4783-b7f6-af10516deb69)
 
+# Discovery
+- What I Have Learned
+- I Discovered That:
+1. England,New York,California,New South Wales and San Salvador are among the states that contributes to High Income Growth in SuperStore Sales Marketing.
+2. Adrian Barton,Hunter Lopez,Mike Gockenbach,Cynthia Arntzen and Denny Joy are among the customers that contributes to High Income Growth in SuperStore Sales Marketing.
+3. Office Supplies and Furniture are among the categories that are highly ordered compared to Technology which contributes to the highest profits in all categories.
+4. Standard Class and Second Class are among the ship modes with high populariry also contributes to High Income Growth Compared to First Class and Same Day which are low in popularity and also low income contributions.
+5. From Month of January to May There is slightly low income growth than from Month of June to December where High Income growth is experienced more.
+6. Copiers,Phones,Bookcases,Chairs,Accessories,Appliances,Storage,Machines,Binders and Paper are among the sub categories with high income growth contributions to superstore sales marketing.
+7. Central,North,North Asia,Central Asia and Oceania are among the regions with highest income growth contributions in superstore marketing sales.
+8. APAC,EU,LATAM and US are among the Markets that contributes to high income growth compared to Africa,EMEA and Canada which have low income contributions in Superstore sales.
+9. Lagos,Illinois,Istanbul,Stockholm and Lisboa are among the states that contributes to the lowest income growth in superstore sales.
+10. Henry Goldwyn,Saphhira Shifley,Nancy Lomonaco,Benjamin Farhat and Stefania Perrino are among the customers that contributes to lowest income growth in superstore sales marketing.
+11. Tables,Fasteners,Labels,Supplies and Envelopes are among sub categories that contributes to lowest income growth in superstore sales marketing.
+# Recommendations 
+Here is the recommendations based on the insights gathered :
+1. Targeting High-Performing Regions ,Markets and Customers:
+ - Regional Focus:
 
+   1. Investing in High-Income Regions:Increasing marketing and sales efforts in England, New York, California, New South Wales, and San Salvador States by considering region-specific promotions and localized marketing campaigns will be the best strategy to maintain and even higher income growth.
+   2. Leveraging Best Practices: Applying successful strategies from high-income regions to improve performance in lower-performing areas like Lagos, Illinois, Istanbul, Stockholm, and Lisboa
+- Customer Prioritization:
+  1. High-Value of  Customers: Offering personalized experiences, loyalty programs, and exclusive offers to top customers like Adrian Barton, Hunter Lopez, Mike Gockenbach, Cynthia Arntzen, and Denny Joy will be the best strategy to maintain and even high income growth consistencies.
+  2. Retention Strategies: Developing retention strategies for low-performing customers such as Henry Goldwyn, Saphhira Shifley, Nancy Lomonaco, Benjamin Farhat, and Stefania Perrino by understanding their needs and addressing any pain points will be the best solution for this.
+2. Product and Category Management:
+- Optimize Product Mix:
+     1. Focusing on High-Profit Categories: While Office Supplies and Furniture are highly ordered, Technology contributes the highest profits. Increasing inventory and marketing focusing on profitable Technology items will be the best ideal solution for this.
+     2. Promotion of High-Growth Subcategories: Prioritizing marketing efforts for subcategories like Copiers, Phones, Bookcases, Chairs, Accessories, Appliances, Storage, Machines, Binders, and Paper will be the best strategy for this.
+- Renewing Low-Performing Subcategories:
+  1. Investigating and Improving: Analyzing why Tables, Fasteners, Labels, Supplies, and Envelopes have low income growth by  considering making substantial modifications to product offerings or repositioning these items will be the best solution if we need high income from these sub categories.
+3.  Shipping and Logistics Optimization:
+   - Popular Ship Modes:
+     1. Enhancing Standard and Second Class Shipping: Since these are the most popular and contribute significantly to income, ensuring they are cost-effective and efficient will be the best idea for this and possibly offering additional benefits for these shipping modes also needed.
+  - Improving Low-Performing Shipping Options:
+    1. Analyzing First Class and Same Day Shipping: Identifying reasons for their low popularity and income contribution. Considering cost reduction strategies or adding value to make these options more attractive will be best ideal solutions if we want high income contributions.
+4. Seasonal and Temporal Strategies:
+- Seasonal Marketing:
+    1. Boosting Off-Season Sales: Developing strategies to increase sales from January to May. Considering seasonal promotions, discounts, and marketing campaigns targeting this period will be the best solutions if we want high income within this period.
+   2. Maximizing Peak Season: Capitalizing on high-income growth from June to December with intensive marketing campaigns and promotions to maximize revenue during this period will be the best idea.
+5. Regional and Market-Specific Strategies:
+- High-Income Regions:
+    1. Regional Customization: Customizing marketing and product strategies for Central, North, North Asia, Central Asia, and Oceania regions to maximize high income growth will be best idea.
+- Market Prioritization:
+   1. Focusing on APAC, EU, LATAM, and US: Given their high income contributions, tailoring marketing campaigns to the specific preferences and trends in these markets will be the best ideal to do.
+   2. Exploring Growth Opportunities: Investigating potential barriers in Africa, EMEA, and Canada to understand low contributions and explore opportunities for growth will be the best solution to improve this markets.
 
 
 
