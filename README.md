@@ -986,13 +986,47 @@ Low Customer=Lowest Income Growth
 1. Henry Goldwyn
    - Total Orders=21K
    - Total Revenue=$6214K
+   - Total Profits=$-3435.69K
+   - Total Quantity=70K
+2. Saphhira Shifley
+   - Total Orders=22K
+   - Total Revenue=$8978K
+   - Total Profits=$-1841.31K
+   - Total Quantity=98K
+3. Nancy Lomonaco
+   - Total Orders=17K
+   - Total Revenue=$3047K
+   - Total Profits=$-1581.19K
+   - Total Quantity=57K
+4. Benjamin Farhat
+   - Total Orders=15K
+   - Total Revenue=$3541K
+   - Total Profits=$-1578.86K
+   - Total Quantity=59K
+5. Stefania Perrino
+   - Total Orders=19K
+   - Total Revenue=$3979K
+   - Total Profits=$-1532.25K
+   - Total Quantity=70K
 
+# SQL query for this :
+    SELECT TOP 5 Customer_Name,
 
+    COUNT(Order_Id)Total_Orders,
 
+    SUM(Revenue)Total_Revenue,
 
+    CAST(SUM(Profit) AS DECIMAL(10,2) )Total_Profit,
 
+    SUM(Quantity)Total_Quantity
 
+    FROM SuperStore_Sales_Marketing
 
+    GROUP BY Customer_Name
+
+    ORDER BY Total_Profit ASC
+
+# OUTPUT
 
 
 
