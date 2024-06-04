@@ -984,7 +984,8 @@ Calculation Breakdown
 Low Customer=Lowest Income Growth
 
 1. Henry Goldwyn
-   - Total Orders=
+   - Total Orders=21K
+   - Total Revenue=$6214K
 
 
 
