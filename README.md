@@ -1193,7 +1193,7 @@ ROI For  Regional and Market-Specific Strategies
   3. ROI Calculation:
  
          (15% Revenue Increase-10% Cost Increase)/10% Cost Increase=50%
-
+# Potential Courses of Actions
 # Action plan
 Actions need to be taken is as follows:
 # Action For Targeting High-Performing Regions and Customers
