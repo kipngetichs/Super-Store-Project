@@ -80,6 +80,7 @@ Data needed to achieve this objectives and solutions is the following:
 - Developement
 - Testing
 - Analysis
+  # Design
 # Dashboard Components Requirement
 - The following are questions that the dashboard will answer.
   - Top States With Highest Revenue Contributions
@@ -1128,8 +1129,125 @@ Here is the recommendations based on the insights gathered :
    1. Focusing on APAC, EU, LATAM, and US: Given their high income contributions, tailoring marketing campaigns to the specific preferences and trends in these markets will be the best ideal to do.
    2. Exploring Growth Opportunities: Investigating potential barriers in Africa, EMEA, and Canada to understand low contributions and explore opportunities for growth will be the best solution to improve this markets.
 
+# Potential ROI
+ROI we expect when we take this action:
+# ROI For Targeting High-Performing Regions and Customers
+- Regional Focus:
+  1. Revenue Increase: 15-20% increase in sales in high-income regions.
+  2. Cost Increase: 10-12% for marketing and operational adjustments.
+  3. ROI Calculation:
 
+         (20% Revenue Increase-12% Cost Increase)/12% Cost Increase=67%
 
+- Customer Prioritization:
+  1. Revenue Increase: 10-15% increase from high-value customers.
+  2. Cost Increase: 5-8% for loyalty programs and retention strategies.
+  3. ROI Calculation:
+  
+         ( 15% Revenue Increase-8% Cost Increase)/8% Cost Increase=88%
+# ROI For Product and Category Management
+- Optimize Product Mix:
+  1. Revenue Increase: 20-25% increase in high-profit categories.
+  2. Cost Increase: 10-15% for increased inventory and marketing efforts.
+  3. ROI Calculation:
 
+         (25% Revenue Increase-15% Cost Increase)/15% Cost Increase=67%
+ - Renewing Low-Performing Sub categories:
+   1. Revenue Increase: 10-15% increase from improved subcategories.
+   2. Cost Increase: 5-8% for product development and repositioning.
+   3. ROI Calculation:
+  
+          (15% Revenue Increase-8% Cost Increase)/8% Cost Increase=88%    
+# ROI For Shipping and Logistics Optimization
+- Popular Ship Modes:
+  1. Revenue Increase: 10-15% increase from popular shipping options.
+  2. Cost Increase: 5-7% for enhancing shipping services.
+  3. ROI Calculation:
+ 
+         (15% Revenue Increase-7% Cost Increase)/7% Cost Increase=114%
+- Improving Low-Performing Shipping Options:
+  1. Revenue Increase: 5-10% increase from improved shipping options.
+  2. Cost Increase: 3-5% for analyzing and improving services
+  3. ROI Calculation:
+ 
+         (10% Revenue Increase-5% Revenue Increase)/5% Revenue Increase=100%
 
+- Seasonal Marketing:
+  1. Revenue Increase: 10-15% increase during off-peak months, 15-20% during peak months.
+  2. Cost Increase: 5-10% for marketing and promotional efforts.
+  3. ROI Calculation:
+ 
+         (20% Revenue Increase-10% Cost Increase)/10% Cost Increase=100%
 
+ROI For  Regional and Market-Specific Strategies
+- High-Income Regions:
+  1. Revenue Increase: 15-20% increase in these regions.
+  2. Cost Increase: 10-12% for customized marketing and products.
+  3. ROI Calculation:
+
+         (20% Revenue Increase-12% Cost Increase)/12% Cost Increase=67%
+- Market Prioritization:
+  1. Revenue Increase: 10-15% increase from prioritized markets.
+  2. Cost Increase: 7-10% for market research and tailored campaigns.
+  3. ROI Calculation:
+ 
+         (15% Revenue Increase-10% Cost Increase)/10% Cost Increase=50%
+
+# Action plan
+Actions need to be taken is as follows:
+# Action For Targeting High-Performing Regions and Customers
+- Regional Focus:
+  1. Investing in High-Income Regions: Developing region-specific promotions and marketing campaigns targeting England, New York, California, New South Wales, and San Salvador.
+  2. Leveraging Best Practices: Implementing strategies from high-performing regions in lower-performing areas like Lagos, Illinois, Istanbul, Stockholm, and Lisboa.
+
+- Customer Prioritization:
+  1. High-Value Of Customers: Creating personalized experiences and exclusive offers for top customers.
+  2. Retention Strategies: Developing and implementing strategies to address the needs and improving the satisfaction of low-performing customers.
+
+# Action For Product and Category Management
+- Optimize Product Mix:
+  1. Focus on High-Profit Categories: Increasing inventory and marketing focus on profitable Technology items.
+  2. Promotion of High-Growth Subcategories: Prioritizing marketing efforts for subcategories like Copiers, Phones, Bookcases, Chairs, Accessories, Appliances, Storage, Machines, Binders, and Paper.
+- Renew Of Low-Performing Subcategories:
+  1. Investigating and Improve: Analyzing and adjusting product offerings for Tables, Fasteners, Labels, Supplies, and Envelopes.
+# Action For  Shipping and Logistics Optimization
+- Popular Ship Modes:
+  1. Enhancing Standard and Second Class Shipping: Ensuring these modes are cost-effective and possibly offer additional benefits.
+- Improving Low-Performing Shipping Options:
+  1. Analyzing and Improve: Identifying reasons for low popularity and improve First Class and Same Day shipping options.
+
+# Action For Seasonal and Temporal Strategies
+- Seasonal Marketing:
+  1. Boosting Off-Season Sales: Developing strategies for increasing sales from January to May.
+  2. Maximizing Peak Season: Capitalizing on high-income growth from June to December with intensive marketing campaigns.
+
+# Action For Regional and Market-Specific Strategies
+- High-Income Regions:
+1. Regional Customization: Tailor marketing and product strategies for Central, North, North Asia, Central Asia, and Oceania regions.
+- Market Prioritization:
+  1.Focusing on APAC, EU, LATAM, and US: Tailoring marketing campaigns to these markets.
+  2. Exploring Growth Opportunities: Investigating barriers and opportunities in Africa, EMEA, and Canada.
+
+# Conclusion
+- High-Income Growth Regions:
+  - Top Contributors: Regions such as England, New York, California, New South Wales, and San Salvador are significant drivers of high income growth. These areas should be the focus of increased marketing and sales efforts, utilizing region-specific promotions and localized campaigns to leverage their potential further.
+- High-Value Customers:
+  - Top Contributors: Customers like Adrian Barton, Hunter Lopez, Mike Gockenbach, Cynthia Arntzen, and Denny Joy contribute significantly to high income growth. Personalized experiences, loyalty programs, and exclusive offers should be prioritized for these high-value customers to enhance their satisfaction and retention.
+- Product Categories:
+  - Highly Ordered: Office Supplies and Furniture are the most ordered categories, while Technology contributes the highest profits. Increasing inventory and marketing focus on profitable Technology items can optimize the product mix.
+  - High-Growth Subcategories: Items such as Copiers, Phones, Bookcases, Chairs, Accessories, Appliances, Storage, Machines, Binders, and Paper have notable income growth contributions and should be prioritized in marketing efforts.
+- Shipping Modes:
+  - Popular Options: Standard Class and Second Class shipping modes are popular and significantly contribute to income growth. Ensuring these modes are cost-effective and efficient can sustain their popularity.
+  - Improving Low-Performing Options: First Class and Same Day shipping are less popular and contribute less to income. Analyzing and improving these options could attract more customers and enhance their contributions.
+- Seasonal Trends:
+  - Income Growth: From January to May, income growth is slightly lower, whereas from June to December, higher income growth is observed. Developing strategies to boost off-season sales with seasonal promotions and intensive marketing during peak seasons can optimize revenue throughout the year.
+- Regional Contributions:
+  - High-Growth Regions: Central, North, North Asia, Central Asia, and Oceania regions show the highest income growth contributions. Customizing marketing and product strategies for these regions can maximize growth.
+  - Market Focus: APAC, EU, LATAM, and the US are leading markets in terms of income contributions. Tailoring marketing campaigns to these regions' specific preferences and trends can further enhance growth.
+- Low-Performing Areas:
+  - Regions: Lagos, Illinois, Istanbul, Stockholm, and Lisboa are among the regions contributing to the lowest income growth. Applying successful strategies from high-income regions and investigating potential barriers in these areas could improve their performance.
+  - Customers: Henry Goldwyn, Saphhira Shifley, Nancy Lomonaco, Benjamin Farhat, and Stefania Perrino are customers with the lowest income growth contributions. Understanding their needs and addressing any pain points can help in developing retention strategies.
+- Low-Growth Subcategories:
+  - Subcategories: Tables, Fasteners, Labels, Supplies, and Envelopes have low income growth contributions. Investigating the reasons behind their performance and considering product improvements or repositioning these items could revitalize their growth.
+
+     
